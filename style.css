@@ -37,7 +37,15 @@ p {
 }
 #centerContent {
     background-color: lightgray;
-    width: 50%;
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#rightContent {
+    background-color: lightgray;
+    width: 20%;
     height: 400px;
     display: flex;
     justify-content: center;
