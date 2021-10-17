@@ -1,60 +1,41 @@
 #container {
-    border: 1px solid gray;
+    border: 1px solid honeydew;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: honeydew;
     height: 720px;
 }
 
 #header {
-    background-color: lightgray;
     height: 100px;
+}
+
+.flex {
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     margin: 10px;
 }
 
 #navBar {
-    background-color: lightgray;
     height: 60px;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
 }
+
 p {
     display: flex;
     align-self: center;
     font-size: x-large;
 }
-#leftContent {
-    background-color: lightgray;
+.lfContent {
     width: 20%;
     height: 400px;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
 }
 #mainContent {
     display: flex;
 }
 #centerContent {
-    background-color: lightgray;
     width: 60%;
     height: 400px;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-#rightContent {
-    background-color: lightgray;
-    width: 20%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
 }
 #footer {
-    background-color: lightgray;
     height: 80px;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
 }
