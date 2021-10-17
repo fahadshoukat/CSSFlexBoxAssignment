@@ -3,10 +3,24 @@
     background-color: honeydew;
     height: 700px;
 }
+
 #header {
     background-color: lightgray;
     height: 100px;
     display: flex;
     justify-content: center;
     margin: 10px;
+}
+
+#navBar {
+    background-color: lightgray;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+p {
+    display: flex;
+    align-self: center;
+    font-size: x-large;
 }
