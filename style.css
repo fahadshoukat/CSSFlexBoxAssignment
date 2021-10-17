@@ -24,3 +24,11 @@ p {
     align-self: center;
     font-size: x-large;
 }
+#leftContent {
+    background-color: lightgray;
+    width: 20%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
