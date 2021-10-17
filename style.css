@@ -2,5 +2,11 @@
     border: 1px solid gray;
     background-color: honeydew;
     height: 700px;
+}
+#header {
+    background-color: lightgray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
     margin: 10px;
 }
