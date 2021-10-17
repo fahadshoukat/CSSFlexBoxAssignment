@@ -32,3 +32,14 @@ p {
     justify-content: center;
     margin: 10px;
 }
+#mainContent {
+    display: flex;
+}
+#centerContent {
+    background-color: lightgray;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
