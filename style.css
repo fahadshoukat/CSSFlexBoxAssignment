@@ -1,7 +1,7 @@
 #container {
     border: 1px solid gray;
     background-color: honeydew;
-    height: 700px;
+    height: 720px;
 }
 
 #header {
@@ -47,6 +47,13 @@ p {
     background-color: lightgray;
     width: 20%;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#footer {
+    background-color: lightgray;
+    height: 80px;
     display: flex;
     justify-content: center;
     margin: 10px;
